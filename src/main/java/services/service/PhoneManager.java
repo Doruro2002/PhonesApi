@@ -9,6 +9,6 @@ public interface PhoneManager {
     public PhoneDto createPhone(PhoneDto phone);
     public List<PhoneDto> getPhoneByModel(String model);
     public List<PhoneDto> getPhoneByModelAndPrice(String model, double price);
-    public List<PhoneDto> getAllPhone();
-
+    public List<PhoneDto> getAllPhones();
+    public void deletePhone(PhoneDto phone);
 }
